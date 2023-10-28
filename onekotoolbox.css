@@ -1,0 +1,29 @@
+/*Hide orignal toolbox icon*/
+.vc-toolbox-btn>svg {
+    display: none;
+}
+/*Make toolbox container the correct size*/
+.vc-toolbox-btn {
+    width: 24px;
+    height: 24px;
+}
+/*Add oneko*/
+.vc-toolbox-btn:before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: 0px;
+    width: calc(32px/var(--onekotoolbox-resolution, 1));
+    height: calc(32px/var(--onekotoolbox-resolution, 1));  
+    transform: scale(var(--onekotoolbox-resolution, 0.75));
+    transition: 0.2s ease;
+    opacity: 0.7;
+    image-rendering: pixelated;
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekotoolbox-sleep-duration, 2s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-sleep-animation, sleep);
+    background: var(--onekotoolbox-skin);
+}
+/*Wake oneko up on hover and start hover animation on hover*/
+.vc-toolbox-btn:hover:before {
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards wakeup, var(--onekotoolbox-hovered-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-hovered-animation, alert);
+    opacity: 1;
+}

@@ -1,0 +1,18 @@
+[class^=channelTextArea_]:before {
+	top: var(--onekomessagebar-position-top, -30px);
+	left: var(--onekomessagebar-position-left, 10px);
+	z-index: var(--onekomessagebar-z-index, 1);
+	content: "";
+	width: calc(32px/var(--onekomessagebar-resolution, 1));
+	height: calc(32px/var(--onekomessagebar-resolution, 1));
+	transform: scale(var(--onekomessagebar-resolution, 1));
+    position: absolute;
+	image-rendering: pixelated;
+	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 2s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
+	background-image: var(--onekomessagebar-skin);
+}
+[class^=channelTextArea_]:hover:before {
+  animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-hovered-duration, 0.3s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-hovered-animation, alert)}
+[class^=channelTextArea_]:has(:focus):before {
+	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-focused-duration, 2s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-focused-animation, alert);
+}
