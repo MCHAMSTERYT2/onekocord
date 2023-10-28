@@ -67,4 +67,4 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 --onekotoolbox-hovered-duration: 0.3s;
 --onekotoolbox-selected-animation: alert;
 --onekotoolbox-selected-duration: 0.3s;
-}```
+}
