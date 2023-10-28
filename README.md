@@ -3,11 +3,12 @@
 Your favourite cat, Oneko, implemented into discord everywhere you wish!
 
 This repository contains all official Oneko skins and code snippets
-Only supported on Vencord, may work on Betterdiscord
+
+Only supported on [Vencord](https://vencord.dev), may partly work on [BetterDiscord](https://betterdiscord.app)
 
 ## Content
 **Onekoanimations**
-Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the oneko snippets
+Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the oneko snippets.
 
 **Onekohomeicon**
 An Oneko for your home icon!
@@ -20,6 +21,7 @@ Oneko on your message input!
 
 **Onekotoolbox**
 Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
+
 ![Alt text](images/Toolbox.png)
 
 
