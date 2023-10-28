@@ -6,7 +6,7 @@
 [class^=childWrapper_]:not(:has([class^=favoriteIcon_])):before {
 	content: "";
 	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
-	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 2s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 1s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
 	image-rendering: var(--onekohomeicon-rendering, pixelated);
 	width: 32px;
 	height: 32px;
@@ -15,11 +15,11 @@
 }
 /*Wake oneko up and start hover animation on hover*/
 [class^=childWrapper_]:not(:has([class^=favoriteIcon_])):hover:before {
-	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards wakeup, var(--onekohomeicon-hovered-duration, 2s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-hovered-animation, alert);
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-hovered-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-hovered-animation, alert);
 	opacity: 1;
 }
-/*Wake oneko up and start focused animation when opening dms*/
+/*Wake oneko up and start selected animation when opening dms*/
 [class*=selected_]>[class^=childWrapper_]:not(:has([class^=favoriteIcon_])):not(:hover):before {
-	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards wakeup, var(--onekohomeicon-focused-duration, 2s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-focused-animation, runright);
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-selected-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-selected-animation, runright);
 	opacity: 1;
 }
