@@ -1,7 +1,6 @@
 # Onekocord: Oneko for Discord!
 
 Your favourite cat, Oneko, implemented into discord everywhere you wish
-
 This repository contains all official Oneko skins and code snippets
 
 Only supported on Vencord, may work on Betterdiscord
@@ -24,12 +23,16 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 ![Alt text](images/Toolbox.png)
 
 
-## Default Variables
+## Installation and Customization
+
+Installing Onekocord snippets is as easy as putting the links into your Online themes, downloading the UserCSS files and putting them into your local themes folder or using ```@import url(LINK);``` at the top of your QuickCSS file!
+
 
 Here are the default variables that are used in the snippets themselves. You can copy any variable you wish to change into your Quickcss to customise your personal Oneko experience.
 
 Valid animations are:
 
+**Onekohomeicon Variables**
 ```css
 :root { /*Onekohomeicon*/
 --onekohomeicon-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
@@ -43,7 +46,10 @@ Valid animations are:
 --onekohomeicon-selected-animation: alert;
 --onekohomeicon-selected-duration: 0.3s;
 }
+```
 
+**Onekomessagebar Variables**
+```css
 :root { /*Onekomessagebar*/
 --onekomessagebar-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
 --onekomessagebar-rendering: pixelated;
@@ -59,7 +65,10 @@ Valid animations are:
 --onekotoolbox-selected-animation: alert;
 --onekotoolbox-selected-duration: 0.3s;
 }
+```
 
+**Onekotoolbox Variables**
+```css
 :root { /*Onekotoolbox*/
 --onekotoolbox-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
 --onekotoolbox-rendering: pixelated;
@@ -73,3 +82,4 @@ Valid animations are:
 --onekotoolbox-selected-duration: 0.3s;
 }
 ```
+
