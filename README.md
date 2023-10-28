@@ -26,6 +26,10 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 
 ## Default Variables
 
+Here are the default variables that are used in the snippets themselves. You can copy any variable you wish to change into your Quickcss to customise your personal Oneko experience.
+
+Valid animations are:
+
 ```css
 :root { /*Onekohomeicon*/
 --onekohomeicon-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
@@ -68,3 +72,4 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 --onekotoolbox-selected-animation: alert;
 --onekotoolbox-selected-duration: 0.3s;
 }
+```
