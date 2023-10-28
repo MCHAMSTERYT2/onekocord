@@ -7,7 +7,7 @@
 	content: "";
 	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
 	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 2s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
-	image-rendering: pixelated;
+	image-rendering: var(--onekohomeicon-rendering, pixelated);
 	width: calc(32px/var(--onekohomeicon-resolution, 1));
 	height: calc(32px/var(--onekohomeicon-resolution, 1));
 	transform: scale(var(--onekohomeicon-resolution, 1));

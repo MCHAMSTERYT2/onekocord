@@ -2,7 +2,7 @@
 	content: "";
 	background-image: var(--onekomessagebar-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
 	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 2s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
-	image-rendering: pixelated;
+	image-rendering: var(--onekomessagebar-rendering, pixelated);
 	width: calc(32px/var(--onekomessagebar-resolution, 1));
 	height: calc(32px/var(--onekomessagebar-resolution, 1));
 	transform: scale(var(--onekomessagebar-resolution, 1));
