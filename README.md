@@ -12,6 +12,7 @@ Onekoanimations.css is needed for all Oneko snippets. It supplies the different 
 
 **Onekohomeicon**
 An Oneko for your home icon!
+
 ![Alt text](images/Homeicon.png)
 
 **Onekomessagebar**
