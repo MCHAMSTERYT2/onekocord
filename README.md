@@ -1,8 +1,8 @@
 # Onekocord: Oneko for Discord!
 
-Your favourite cat, Oneko, implemented into discord everywhere you wish
-This repository contains all official Oneko skins and code snippets
+Your favourite cat, Oneko, implemented into discord everywhere you wish!
 
+This repository contains all official Oneko skins and code snippets
 Only supported on Vencord, may work on Betterdiscord
 
 ## Content
