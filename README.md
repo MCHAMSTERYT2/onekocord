@@ -33,6 +33,20 @@ Installing Onekocord snippets is as easy as putting the links into your Online t
 Here are the default variables that are used in the snippets themselves. You can copy any variable you wish to change into your Quickcss to customise your personal Oneko experience.
 
 Valid animations are:
+  - alert
+  - runright
+  - runleft
+  - scratchright
+  - scratchleft
+  - scratchdown
+  - scratchup
+  - spinleft
+  - spinright
+  - sleep (EXPERIMENTAL)
+  - wakeup (EXPERIMENTAL)
+  - gotosleep (EXPERIMENTAL)
+
+Valid Skins are all the files in the Onekoskins folder, just change default.png in the default variables to whichever you want!
 
 **Onekohomeicon Variables**
 ```css
