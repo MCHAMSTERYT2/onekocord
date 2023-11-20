@@ -24,6 +24,10 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 
 ![Alt text](images/Toolbox.png)
 
+**Onekoavatar** 
+POV: You have become the Oneko
+
+![image](images/Avatar.png)
 
 ## Installation and Customization
 
@@ -99,3 +103,18 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 }
 ```
 
+**Onekoavatar Variables**
+```css
+:root { /*Onekoavatar*/
+--onekoavatar-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekoavatar-rendering: pixelated;
+--onekoavatar-wakeup-animation: wakeup;
+--onekoavatar-wakeup-duration: 2s;
+--onekoavatar-sleep-animation: sleep;
+--onekoavatar-sleep-duration: 2s;
+--onekoavatar-hovered-animation: runright;
+--onekoavatar-hovered-duration: 0.3s;
+--onekoavatar-selected-animation: alert;
+--onekoavatar-selected-duration: 0.3s;
+}
+```
