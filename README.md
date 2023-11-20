@@ -8,23 +8,28 @@ Only supported on [Vencord](https://vencord.dev), may partly work on [BetterDisc
 
 ## Content
 **Onekoanimations**
+
 Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the oneko snippets.
 
 **Onekohomeicon**
+
 An Oneko for your home icon!
 
 ![Alt text](images/Homeicon.png)
 
 **Onekomessagebar**
+
 Oneko on your message input!
 ![Alt text](images/Messagebar.png)
 
 **Onekotoolbox**
+
 Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 
 ![Alt text](images/Toolbox.png)
 
 **Onekoavatar** 
+
 POV: You have become the Oneko
 
 ![image](images/Avatar.png)
