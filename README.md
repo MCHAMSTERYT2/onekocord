@@ -40,6 +40,7 @@ Installing Onekocord snippets is as easy as putting the links into your Online t
 
 
 Here are the default variables that are used in the snippets themselves. You can copy any variable you wish to change into your Quickcss to customise your personal Oneko experience.
+Experimental animations are technically valid animations, though they might not work as expected.
 
 Valid animations are:
   - alert
@@ -54,6 +55,7 @@ Valid animations are:
   - sleep (EXPERIMENTAL)
   - wakeup (EXPERIMENTAL)
   - gotosleep (EXPERIMENTAL)
+  - messagebarwalk (EXPERIMENTAL)
 
 Valid Skins are all the files in the Onekoskins folder, just change default.png in the default variables to whichever you want!
 
@@ -127,3 +129,5 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekoavatar-scale: 1;
 }
 ```
+
+DO NOT USE Onekomessagebarwalk. THIS IS AN EXPERIMENTAL ADDON TO Onekomessagebar AND WILL CAUSE ISSUES
