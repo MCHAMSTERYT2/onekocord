@@ -6,10 +6,11 @@
 	image-rendering: var(--onekomessagebar-rendering, pixelated);
 	width: 32px;
 	height: 32px;
-    position: absolute;
+   	position: absolute;
 	top: var(--onekomessagebar-position-top, -30px);
 	left: var(--onekomessagebar-position-left, 10px);
-	z-index: var(--onekomessagebar-z-index, 1);    
+	z-index: var(--onekomessagebar-z-index, 1);
+	scale: var(--onekomessagebar-scale, 1);
 }
 /*Wake oneko up on hover and start hover animation*/
 [class^=channelTextArea_]:hover:before {
