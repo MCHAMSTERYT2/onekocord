@@ -166,3 +166,11 @@
 		background-position: -160px 0;
 	}
 }
+@keyframes messagebarwalk {
+    from {
+        left: calc(0% + var(--onekomessagebar-position-left, 10px));
+    }
+    to {
+        left: calc(100% - 32px*var(--onekomessagebar-scale, 1) - var(--onekomessagebar-position-left, 10px));
+    }
+}
