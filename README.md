@@ -30,7 +30,7 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 
 **Onekoavatar** 
 
-POV: You have become the Oneko
+Replace your avatar with an interactive oneko
 
 ![image](images/Avatar.png)
 
@@ -70,6 +70,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekohomeicon-hovered-duration: 0.3s;
 --onekohomeicon-selected-animation: alert;
 --onekohomeicon-selected-duration: 0.3s;
+--onekohomeicon-scale: 1;
 }
 ```
 
@@ -87,8 +88,9 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekomessagebar-sleep-duration: 2s;
 --onekomessagebar-hovered-animation: runright;
 --onekomessagebar-hovered-duration: 0.3s;
---onekotoolbox-selected-animation: alert;
---onekotoolbox-selected-duration: 0.3s;
+--onekomessagebar-selected-animation: alert;
+--onekomessagebar-selected-duration: 0.3s;
+--onekomessagebar-scale: 1;
 }
 ```
 
@@ -105,6 +107,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekotoolbox-hovered-duration: 0.3s;
 --onekotoolbox-selected-animation: alert;
 --onekotoolbox-selected-duration: 0.3s;
+--onekotoolbox-sclae: 1;
 }
 ```
 
@@ -121,5 +124,6 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekoavatar-hovered-duration: 0.3s;
 --onekoavatar-selected-animation: alert;
 --onekoavatar-selected-duration: 0.3s;
+--onekoavatar-scale: 1;
 }
 ```
