@@ -40,6 +40,7 @@ Installing Onekocord snippets is as easy as putting the links into your Online t
 
 
 Here are the default variables that are used in the snippets themselves. You can copy any variable you wish to change into your Quickcss to customise your personal Oneko experience.
+
 Experimental animations are technically valid animations, though they might not work as expected.
 
 Valid animations are:
