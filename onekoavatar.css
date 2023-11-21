@@ -12,6 +12,7 @@
     height: 32px;  
     position: absolute;
     transition: 0.2s ease;
+    scale: var(--onekoavatar, 1);
 }
 /*Wake oneko up and start hover animation on hover*/
 [class^=avatarWrapper_]:hover>[class^=wrapper_]:before {
