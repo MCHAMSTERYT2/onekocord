@@ -9,7 +9,7 @@ Only supported on [Vencord](https://vencord.dev), may partly work on [BetterDisc
 ## Content
 **Onekoanimations**
 
-Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the oneko snippets.
+Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the Oneko snippets.
 
 **Onekohomeicon**
 
@@ -30,9 +30,15 @@ Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
 
 **Onekoavatar** 
 
-Replace your avatar with an interactive oneko
+Replace your avatar with an interactive Oneko
 
 ![image](images/Avatar.png)
+
+**Onekowelcome**
+
+Replace the "Wave to say hi!" Sticker with Oneko
+
+![image](images/Welcome.png)
 
 ## Installation and Customization
 
@@ -131,4 +137,18 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 }
 ```
 
+**Onekowelcome Variables**
+```css
+:root { /*Onekowelcome*/
+--onekowelcome-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekowelcome-rendering: pixelated;
+--onekowelcome-wakeup-animation: wakeup;
+--onekowelcome-wakeup-duration: 2s;
+--onekowelcome-sleep-animation: sleep;
+--onekowelcome-sleep-duration: 2s;
+--onekowelcome-hovered-animation: runright;
+--onekowelcome-hovered-duration: 0.3s;
+--onekowelcome-scale: 1;
+}
+```
 DO NOT USE Onekomessagebarwalk. THIS IS AN EXPERIMENTAL ADDON TO Onekomessagebar AND WILL CAUSE ISSUES
