@@ -8,7 +8,7 @@
 	height: 32px;
    	position: absolute;
 	top: var(--onekomessagebar-position-top, -30px);
-	left: var(--onekomessagebar-position-left, 10px);
+	left: var(--onekomessagebar-position-right, 10px);
 	z-index: var(--onekomessagebar-z-index, 1);
 	scale: var(--onekomessagebar-scale, 1);
 }
